@@ -1,5 +1,15 @@
 # ORB-SLAM3
 
+## Quick Start
+Connect he camera and launch the camera nodes 
+```
+roslaunch realsense2_camera rs_d435_camera_with_model.launch 
+```
+Now we have all the topics and nodes. Launch the ORB_SLAM3 
+```
+rosrun ORB_SLAM3 RGBD /home/awaistahir/Dev/ORB_SLAM3/Vocabulary/ORBvoc.txt /home/awaistahir/Dev/ORB_SLAM3/Examples/RGB-D/RealSense_D435i.yaml
+```
+
 ### V1.0, December 22th, 2021
 **Authors:** Carlos Campos, Richard Elvira, Juan J. Gómez Rodríguez, [José M. M. Montiel](http://webdiis.unizar.es/~josemari/), [Juan D. Tardos](http://webdiis.unizar.es/~jdtardos/).
 
